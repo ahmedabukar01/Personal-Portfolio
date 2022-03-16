@@ -1,11 +1,9 @@
-import React from 'react'
+// import ParticleBackground from '../scripts/ParticleBackground';
 
 const Home = () => {
   return (
     <div className='home'>
-        <div id='particles.js'>
-
-        </div>
+      
     </div>
   )
 }

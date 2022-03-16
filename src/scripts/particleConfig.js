@@ -1,7 +1,7 @@
-const particles = {
+const particleConfig = {
     particles: {
       number: {
-        value: 199,
+        value: 275,
         density: {
           enable: true,
           value_area: 800
@@ -109,5 +109,4 @@ const particles = {
     retina_detect: true
   }
 
-
-  export default particles;
+  export default particleConfig;
