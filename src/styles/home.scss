@@ -11,8 +11,10 @@
 .home{
     background:$dark1;
     width:100vw;
+    max-width: 100%;
     height:100vh;
     padding: 0 50px;
+    margin: 0 auto;
     overflow: hidden;
 
     .header{
@@ -22,9 +24,15 @@
         align-items: center;
         padding: 10px 0;
 
+        .fa-bars{
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+        }
         .logo{
             font-size: 20px;
             font-weight: bold;
+            cursor: pointer;
             font-family: 'Poppins',sans-serif;
         }
 
@@ -45,14 +53,47 @@
     }
 
     .showcase{
-        background:red;
-        width: 80%;
-        margin: 0 auto;
         text-align: center;
+        color:#fff;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content:center;
         height: 80vh;
+
+        h1{
+            font-size: 4rem;
+            margin-top: 5rem;
+        }
+        h3{
+            margin: 2rem 0;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+
+// responsive
+
+@media only screen and (max-width: 768px){
+    .home{
+        padding: 0 30px;
+
+        .header{
+            
+            .fa-bars{
+                display: block;
+            }
+
+            ul{
+                display: none;
+            }
+        }
+
+        .showcase{
+            h1{
+                font-size: 3.5rem;
+            }
+        }
     }
 }

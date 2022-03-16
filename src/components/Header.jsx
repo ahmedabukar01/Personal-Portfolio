@@ -14,7 +14,7 @@ const Header = () => {
             <li><a href="#home">Contact</a></li>
             <li><a href="#home">Footer</a></li>
         </ul>
-        <FaBars style={{display: 'none'}} className="fa-bars"/>
+        <FaBars className="fa-bars"/>
     </div>
   )
 }
