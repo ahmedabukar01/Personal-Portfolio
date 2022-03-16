@@ -13,6 +13,7 @@
     width:100vw;
     height:100vh;
     padding: 0 50px;
+    overflow: hidden;
 
     .header{
         color:#fff;
@@ -41,5 +42,17 @@
             }
         }
 
+    }
+
+    .showcase{
+        background:red;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        height: 80vh;
     }
 }
