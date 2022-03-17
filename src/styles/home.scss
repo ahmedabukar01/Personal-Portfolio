@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700&family=Lora:ital,wght@1,400;1,500;1,600&family=Open+Sans:wght@300;400;500;600&family=Oswald:wght@200;300;400;500&family=Playfair+Display&family=Poppins:wght@100;200;300;400&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,100&family=Smooch+Sans:wght@100;200;300;400;500&family=Varela&family=Varela+Round&display=swap');
 // Hubballi,  Oswald, 'Josefin Sans', 'Lora', 'Lato', 'Varela Round', 'Playfair Display', 'Smooch Sans', 'Roboto Mono', 'Open Sans'
+// 'lora', 'Playfair Display', 'Roboto Mono'
+
 @import 'colors';
 
 *{
@@ -32,6 +34,7 @@
         .logo{
             font-size: 20px;
             font-weight: bold;
+            margin-top: 9px;
             cursor: pointer;
             font-family: 'Poppins',sans-serif;
         }
@@ -67,6 +70,7 @@
         h3{
             margin: 2rem 0;
             font-size: 1.5rem;
+            font-family: 'lora';
         }
 
         .links{
