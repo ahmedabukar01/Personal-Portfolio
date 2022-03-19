@@ -9,6 +9,9 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    position: relative;
+}
 
 .home{
     background:$dark1;
@@ -25,6 +28,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px 0;
+        background:green;
 
         .fa-bars{
             display: none;
@@ -41,6 +45,10 @@
 
         ul{
             list-style-type: none;
+            .close{
+                display: none;
+            }
+
             li{
                 display: inline;
                 font-family: 'Hubballi';
@@ -114,7 +122,32 @@
             }
 
             ul{
-                display: none;
+                background:green;
+                z-index: 9999;
+                position: fixed;
+                top:0;
+                left:0;
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .close{
+                    display: block;
+                    position: absolute;
+                    right: 2rem;
+                    top:1.5rem;
+                    font-size: 2rem;
+                }
+                
+                li{
+                    margin-bottom: 2rem;
+                    a{
+                        font-size: 2rem;
+                    }
+                }
             }
         }
 
