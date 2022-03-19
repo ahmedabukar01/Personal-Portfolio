@@ -28,7 +28,6 @@ const Header = () => {
             <li><a href="#home">Portfolio</a></li>
             <li><a href="#home">Blog</a></li>
             <li><a href="#home">Contact</a></li>
-            <li><a href="#home">Footer</a></li>
         </ul>
         <FaBars className="fa-bars" onClick={showControll}/> 
     </div>
