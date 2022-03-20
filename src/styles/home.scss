@@ -43,6 +43,7 @@ body{
         }
 
         ul{
+            display: block;
             list-style-type: none;
             .close{
                 display: none;
@@ -115,7 +116,11 @@ body{
         padding: 0 30px;
 
         .header{
-            
+
+            .false{
+                display: none;
+            }
+
             .fa-bars{
                 display: block;
             }
@@ -165,9 +170,9 @@ body{
     .home{
         padding: 0 20px;
 
-        .header{
+        // .header{
             
-        }
+        // }
 
         .showcase{
             h1{
@@ -182,9 +187,9 @@ body{
     .home{
         padding: 0 20px;
 
-        .header{
+        // .header{
 
-        }
+        // }
 
         .showcase{
             h1{
