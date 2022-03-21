@@ -16,7 +16,7 @@ const AboutMe = () => {
                 Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Asperiores, omnis!
             </p>
-            <button> Download CV</button>
+            <button><MdDownloadForOffline className='icon' /> Download CV</button>
         </div>
     </div>
   )
