@@ -5,7 +5,7 @@ import Showcase from "../components/Showcase"
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home all'>
       {/* <ParticleBackground /> */}
       <Header />
       <Showcase />

@@ -3,13 +3,13 @@ import { MdWavingHand } from 'react-icons/md';
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className='about-me all'>
         <div className="profile">
-
+          
         </div>
         <div className="info">
             <h2>About Me</h2>
-            <h3>Hi Im ahmed <MdWavingHand /> </h3>
+            <h3>Hi I'm Ahmed <MdWavingHand /> </h3>
             <p>
                 Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Asperiores, omnis!
