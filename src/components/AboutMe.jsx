@@ -1,6 +1,7 @@
 import { MdDownloadForOffline } from 'react-icons/md'
+import { MdWavingHand } from 'react-icons/md';
 
-const About = () => {
+const AboutMe = () => {
   return (
     <div>
         <div className="profile">
@@ -8,6 +9,7 @@ const About = () => {
         </div>
         <div className="info">
             <h2>About Me</h2>
+            <h3>Hi Im ahmed <MdWavingHand /> </h3>
             <p>
                 Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Asperiores, omnis!
@@ -20,4 +22,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutMe

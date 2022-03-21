@@ -8,6 +8,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     position: relative;
@@ -20,7 +21,6 @@ body{
     height:100vh;
     padding: 0 50px;
     margin: 0 auto;
-    overflow: hidden;
 
     .header{
         color:#fff;
@@ -113,6 +113,9 @@ body{
     }
 }
 
+.about{
+    background: lighten($dark1, 3%);
+}
 
 
 // responsive
