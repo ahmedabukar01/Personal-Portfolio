@@ -90,17 +90,23 @@ body{
                 display: flex;
                 align-items: center;
                 margin: 0 10px;
-                padding: 10px;
+                padding: 8px;
                 background: $dark2;
+                border: 1px solid $dark2;
                 border-radius: 5px;
                 text-decoration: none;
                 color:#fff;
                 font-size: 1rem;
+                transition: all 0.3s ease;
 
                 .icon{
                     margin-right: 5px;
                     font-size: 1.5rem;
+
                 }
+            }
+            a:hover{
+                background: darken($dark2, 4%);
             }
         }
         
