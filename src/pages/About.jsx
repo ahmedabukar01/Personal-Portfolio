@@ -1,4 +1,3 @@
-import ahmed from '../images/ahmed.png';
 
 const About = () => {
   return (
