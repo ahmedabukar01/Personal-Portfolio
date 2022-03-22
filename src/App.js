@@ -1,5 +1,6 @@
 import About from './pages/About';
 import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
 import './styles/home.scss';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="wrapper">
       <Home />
       <About />
+      <Portfolio />
     </div>
   );
 }

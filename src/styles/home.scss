@@ -21,6 +21,12 @@ body{
 .home{
     background:$dark1;
 
+    // .bg-particle{
+    //     position: absolute;
+    //     width: 95vw;
+    //     height: 100vh;
+    //     overflow: hidden;
+    // }
     .header{
         color:#fff;
         display:flex;
@@ -194,6 +200,12 @@ body{
    }
 }
 
+
+// portfolio
+.portfolio{
+    background:green;
+    height: 100vh;
+}
 
 // responsive
 

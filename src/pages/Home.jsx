@@ -1,12 +1,12 @@
-import ParticleBackground from '../scripts/ParticleBackground';
 
 import Header from "../components/Header"
 import Showcase from "../components/Showcase"
+import Background from "../components/Background"
 
 const Home = () => {
   return (
     <div className='home all'>
-      {/* <ParticleBackground /> */}
+      {/* <Background /> */}
       <Header />
       <Showcase />
     </div>
