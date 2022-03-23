@@ -198,13 +198,20 @@
 .portfolio{
     color:#fff;
     background: $dark;
+    height: auto;
+    overflow-x: hidden;
     h1{
         padding: 1rem 0;
         text-align: center;
         margin-bottom: 1rem;
     }
     .projects{
-        display: grid;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        justify-items: center;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        padding-bottom: 1rem;
     }
     .pro-wrap{
         display: flex;
@@ -320,6 +327,15 @@
         }
         .info{
             width: 100%;
+        }
+    }
+}
+
+// some responsive
+@media only screen and (max-width: 670px){
+    .portfolio{
+        .projects{
+            
         }
     }
 }
