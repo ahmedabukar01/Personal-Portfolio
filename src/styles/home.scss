@@ -196,15 +196,58 @@
 
 // portfolio
 .portfolio{
-    background:green;
-
+    color:#fff;
+    background: $dark;
+    h1{
+        padding: 1rem 0;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
     .pro-wrap{
         display: flex;
         flex-direction: column;
+        width: 300px;
+        align-items: center;
+        background: lighten($dark, 10%);
+        border-radius: 5px;
+        padding: 1rem 0;
+
         img{
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             border-radius: 5px;
+        }
+        h3{
+            font-family: $font3;
+        }
+        p{
+            text-align:center;
+            padding: 0 10px;
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+        .tech{
+            align-self: flex-start;
+            margin-left: 1rem;
+            display: flex;
+            justify-content: space-between;
+            .tech-name{
+                margin-right: 1rem;
+                font-size: 1.2rem;
+            }
+            .technologies{
+                display: flex;
+                font-size: 0.8rem;
+                flex-wrap: wrap;
+                div{
+                    background:red;
+                    padding: 3px;
+                    border-radius: 4px;
+                    margin-bottom: 0.5rem;
+                    margin-right: 0.5rem;
+                }
+            }
         }
     }
 }

@@ -9,7 +9,7 @@ const Projects = () => {
         <p>Complete Blog Website with Admin management & Moderators and User Login With Authentication</p>
         <div className="tech">
           <div className="tech-name">Tech</div>
-          <div className="technoligies">
+          <div className="technologies">
             <div>React</div>
             <div>Node js</div>
             <div>Exress</div>
