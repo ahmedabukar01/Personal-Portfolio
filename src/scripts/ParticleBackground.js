@@ -2,7 +2,7 @@ import Particles from "react-tsparticles"
 
 const particleBackground = () => {
   return (
-    <div>
+    <div id="particles-js">
         <Particles 
         options={
             {
