@@ -23,7 +23,7 @@ const Projects = () => {
           <button>Demo</button>
         </div>
       </div>
-      
+
       <div className="pro-wrap">
         <img src={pro1} alt="pro" />
         <h3>Somblog</h3>
@@ -41,7 +41,7 @@ const Projects = () => {
         </div>
         <div className="btn-pro">
           <button>Code</button>
-          <button>Demo</button>
+          <button className='demo'>Demo</button>
         </div>
       </div>
 
