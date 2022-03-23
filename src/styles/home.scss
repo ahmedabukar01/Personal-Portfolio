@@ -197,7 +197,16 @@
 // portfolio
 .portfolio{
     background:green;
-    height: 100vh;
+
+    .pro-wrap{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+        }
+    }
 }
 
 // responsive
