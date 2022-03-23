@@ -251,11 +251,13 @@
                 font-size: 0.8rem;
                 flex-wrap: wrap;
                 div{
-                    background:$green1;
-                    padding: 3px;
+                    color: #fff;
+                    padding: 3px 5px;
                     border-radius: 4px;
                     margin-bottom: 0.5rem;
                     margin-right: 0.5rem;
+                    background: lighten($dark, 2%);
+                    box-shadow: 1px 1px 1px #444;
                 }
             }
         }
