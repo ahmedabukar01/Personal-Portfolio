@@ -141,6 +141,7 @@
             overflow: hidden;
             border-radius: 50%;
             box-shadow: 2px 1px 9px;
+            padding: 12px 10px 3px;
 
             img{
                 width: 100%;
@@ -272,16 +273,24 @@
 @media only screen and (max-width: 480px){
     .all{
         padding: 0 20px;
+    }
 
-        // .header{
-            
-        // }
-
-        .showcase{
-            h1{
-                font-size: 2.6rem;
-            }
+    .showcase{
+        h1{
+            font-size: 2.6rem;
         }
+    }
+
+    // about 
+    .about-me{
+
+       .profile{
+
+        .img-circle{
+            width: 200px;
+            height: 200px;
+        }
+       }
     }
 }
 
