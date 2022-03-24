@@ -1,5 +1,6 @@
 import pro1 from '../images/work.jpg';
 import normed from '../images/phone2.PNG';
+import chat from '../images/chat.png';
 
 const Projects = () => {
   return (
@@ -27,7 +28,7 @@ const Projects = () => {
       </div>
 
       <div className="pro-wrap">
-        <img src={pro1} alt="pro" />
+        <img src={chat} alt="pro" />
         <h3>Chat App</h3>
         <p>Realtime Chat App With Socketio. chat rooms with colored message sents & multible user.</p>
         <div className="tech">
@@ -73,7 +74,7 @@ const Projects = () => {
       <div className="pro-wrap">
         <img src={normed} alt="pro" />
         <h3>Nomed Technolgy</h3>
-        <p>Creative Web design and Development Agency based in Mogadisho Somalia</p>
+        <p>Creative Web design and Development Agency in Mogadisho Somalia</p>
         <div className="tech">
           <div className="tech-name">Tech</div>
           <div className="technologies">
