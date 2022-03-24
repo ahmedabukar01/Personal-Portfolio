@@ -71,17 +71,15 @@ const Projects = () => {
 
       <div className="pro-wrap">
         <img src={pro1} alt="pro" />
-        <h3>Somblog</h3>
-        <p>Complete Blog Website with Admin management & Moderators and User Login With Authentication</p>
+        <h3>Nomed Technolgy</h3>
+        <p>Web Designing Agency</p>
         <div className="tech">
           <div className="tech-name">Tech</div>
           <div className="technologies">
-            <div>React</div>
-            <div>Node js</div>
-            <div>Exress</div>
-            <div>MongoDB</div>
-            <div>JWT Authentication</div>
             <div>CSS</div>
+            <div>Flexible Box</div>
+            <div>React js</div>
+            <div>Netlify</div>
           </div>
         </div>
         <div className="btn-pro">
