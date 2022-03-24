@@ -1,4 +1,5 @@
 import pro1 from '../images/work.jpg';
+import normed from '../images/phone2.PNG';
 
 const Projects = () => {
   return (
@@ -70,9 +71,9 @@ const Projects = () => {
       </div>
 
       <div className="pro-wrap">
-        <img src={pro1} alt="pro" />
+        <img src={normed} alt="pro" />
         <h3>Nomed Technolgy</h3>
-        <p>Web Designing Agency</p>
+        <p>Creative Web design and Development Agency based in Mogadisho Somalia</p>
         <div className="tech">
           <div className="tech-name">Tech</div>
           <div className="technologies">

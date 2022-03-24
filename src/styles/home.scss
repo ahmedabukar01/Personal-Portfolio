@@ -224,13 +224,14 @@
         flex-direction: column;
         width: 300px;
         align-items: center;
-        background: lighten($dark, 10%);
+        background: lighten($dark, 4%);
         border-radius: 5px;
         padding: 1rem 0;
 
         img{
             width: 150px;
             height: 150px;
+            object-fit: cover;
             border-radius: 5px;
         }
         h3{
@@ -242,6 +243,7 @@
             margin: 0.5rem 0;
             font-size: 0.9rem;
             letter-spacing: 1px;
+            color:darken(#fff, 20%);
         }
         .tech{
             align-self: flex-start;
@@ -257,7 +259,7 @@
                 font-size: 0.8rem;
                 flex-wrap: wrap;
                 div{
-                    color: #fff;
+                    color: #ddd;
                     padding: 3px 5px;
                     border-radius: 4px;
                     margin-bottom: 0.5rem;
