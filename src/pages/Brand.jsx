@@ -10,6 +10,8 @@ const Brand = () => {
                     <source src={vid}/>
                 </video>
               </div>
+              <span>Published Aug 2021</span>
+              <button>Visit</button>
             </div>
             <div className="right">
                 <h2>Modern HTML And CSS For Beginners</h2>
