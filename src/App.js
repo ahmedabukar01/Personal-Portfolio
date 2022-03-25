@@ -1,4 +1,5 @@
 import About from './pages/About';
+import Brand from './pages/Brand';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import './styles/home.scss';
@@ -9,6 +10,7 @@ function App() {
       <Home />
       <About />
       <Portfolio />
+      <Brand />
     </div>
   );
 }
