@@ -7,7 +7,7 @@ const particleBackground = () => {
           {
             fullScreen: {
               enable: false,
-              zIndex: 0,
+              zIndex: -1,
             },
             particles: {
               number: {
@@ -78,7 +78,7 @@ const particleBackground = () => {
               }
             },
             interactivity: {
-              detect_on: "canvas",
+              detect_on: "window",
               events: {
                 onhover: {
                   enable: true,
