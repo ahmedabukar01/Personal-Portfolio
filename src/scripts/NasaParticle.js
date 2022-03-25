@@ -3,12 +3,15 @@ import Particles from "react-tsparticles"
 const NasaParticle = () => {
   return (
     <div>
-        <Particles 
+        <Particles className="particles"
         options={
             {
+              fullScreen: {
+                enable: false,
+              },
                 particles: {
                   number: {
-                    value: 160,
+                    value: 260,
                     density: {
                       enable: true,
                       value_area: 800
@@ -61,7 +64,7 @@ const NasaParticle = () => {
                   },
                   move: {
                     enable: true,
-                    speed: 1,
+                    speed: 0.7,
                     direction: "none",
                     random: true,
                     straight: false,
