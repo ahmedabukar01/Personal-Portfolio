@@ -20,11 +20,13 @@
 .home{
     background:$dark1;
     position: relative;
+    z-index: 99;
   
     .particles{
         position: absolute;
         width: 100%;
         height: 100%;
+        z-index: -1;
     }
     .header{
         color:#fff;
@@ -407,9 +409,9 @@
 
     // brand
     .brand{
+        height: 75vh;
         .brand-content{
             .video-cont{
-                height: auto;
                 width:60vw;
             }
         }
@@ -418,9 +420,11 @@
 
 // some responsive
 @media only screen and (max-width: 670px){
-    .portfolio{
-        .projects{
-            
+    .brand{
+        .brand-content{
+            .video-cont{
+                height: auto;
+            }
         }
     }
 }
