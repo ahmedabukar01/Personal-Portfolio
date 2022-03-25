@@ -51,7 +51,7 @@ const Projects = () => {
       <div className="pro-wrap">
         <img src={pro1} alt="pro" />
         <h3>Mern Stack App</h3>
-        <p>Complete Mern stack app with Redux, Goal Setting App, sign in and register, goal setting and deleteing, jwt Authentication </p>
+        <p>Complete Mern stack app with Redux, Sign in and register, Goal setting and deleteing, jwt Authentication </p>
         <div className="tech">
           <div className="tech-name">Tech</div>
           <div className="technologies">
