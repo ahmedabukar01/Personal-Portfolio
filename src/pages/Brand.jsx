@@ -1,19 +1,13 @@
-import vid from '../images/vid.mp4';
+
 import NasaParticle from '../scripts/NasaParticle';
 
 const Brand = () => {
   return (
     <div className='brand all'>
-      {/* <NasaParticle /> */}
-
+      <h1>Course</h1>
         <div className="brand-content">
-              <div className="video-cont">
-                <video controls>
-                    <source src={vid}/>
-                </video>
-              </div>
-              <span>Published Aug 2021</span>
                 <h2>Modern HTML And CSS For Beginners</h2>
+                <span>Published Aug 2021</span>
                 <p>Complete Course From Basic to Advanced Level for Web Dev Newbies.</p>
                 <button>Visit</button>
         </div>
