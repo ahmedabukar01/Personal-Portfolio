@@ -299,13 +299,10 @@
     color:#ddd;
     padding-bottom: 1rem;
     height: auto;
-    background: linear-gradient(#000000f1, #00000077), url('../images/back1.jpg');
+    background: linear-gradient(to left, #0000003f, #000000d0), url('../images/back2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    h1{
-        margin: 1rem 0;
-    }
     .brand-content{
         display:flex;
         flex-direction: column;
@@ -314,6 +311,7 @@
         width: 70vw;
         height: 100%;
         margin: 0 auto;
+        margin-top: 1rem;
         
         span{
             font-size: 0.8rem;
@@ -321,12 +319,12 @@
             color:darken(#ddd, 20%);
         }
         h2{
-            font-size: 2rem;
+            font-size: 2.3rem;
             margin: 0.3rem 0;
             color:lighten(#ddd, 4%);
         }
         p{
-            font-size: 1.1rem;
+            font-size: 1.3rem;
         }
         button{
             border:none;
@@ -414,13 +412,7 @@
 
 // some responsive
 @media only screen and (max-width: 670px){
-    .brand{
-        .brand-content{
-            .video-cont{
-                height: auto;
-            }
-        }
-    }
+  
 }
 
 //  mobile phones
@@ -445,6 +437,18 @@
             height: 200px;
         }
        }
+    }
+
+    // branding
+    .brnad{
+        .brand-content{
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+        }
     }
 }
 
