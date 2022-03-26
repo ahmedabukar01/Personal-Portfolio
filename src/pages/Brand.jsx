@@ -1,11 +1,11 @@
 import vid from '../images/vid.mp4';
 import NasaParticle from '../scripts/NasaParticle';
-import ParticleBackground from '../scripts/ParticleBackground';
 
 const Brand = () => {
   return (
     <div className='brand all'>
-      <NasaParticle />
+      {/* <NasaParticle /> */}
+
         <div className="brand-content">
               <div className="video-cont">
                 <video controls>

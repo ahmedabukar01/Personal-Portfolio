@@ -3,7 +3,7 @@ import Particles from "react-tsparticles"
 const NasaParticle = () => {
   return (
     <div>
-        <Particles className="particles"
+        <Particles className="nasa-particles"
         options={
             {
               fullScreen: {
@@ -78,7 +78,7 @@ const NasaParticle = () => {
                   }
                 },
                 interactivity: {
-                  detect_on: "canvas",
+                  detect_on: "window",
                   events: {
                     onhover: {
                       enable: true,
