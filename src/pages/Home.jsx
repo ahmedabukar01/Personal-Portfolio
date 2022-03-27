@@ -6,7 +6,7 @@ import ParticleBackground from "../scripts/ParticleBackground"
 const Home = () => {
   return (
     <div className='home all'>
-      {/* <ParticleBackground /> */}
+      <ParticleBackground />
       <Header />
       <Showcase />
     </div>
