@@ -390,6 +390,7 @@
             font-size: 1rem;
             padding:0.5rem 1.2rem;
             outline: none;
+            background:lighten($dark1, 70%);
         }
         textarea{
            min-width: 100%;
@@ -398,6 +399,7 @@
         button{
             border: none;
             margin: 0.5rem 0;
+            margin-bottom: 1rem;
             font-size: 1rem;
             background: $green1;
             color:#fff;
@@ -411,6 +413,11 @@
         }
 
     }
+}
+.footer{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1rem;
 }
 // responsive
 
