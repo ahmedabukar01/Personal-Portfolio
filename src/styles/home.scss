@@ -341,7 +341,12 @@
 
 // contact
 .contact{
-    background:red;
+    background:$dark0;
+    h1{
+        text-align: center;
+        color:#fff;
+        margin: 1rem 0 2rem;
+    }
 }
 .contact-us{
     .my-info{
@@ -352,8 +357,14 @@
         .icon-info{
             font-size: 1.4rem;
             margin-bottom: 0.3rem;
+            color:#fff;
         }
-
+        h4{
+            color:#fff;
+        }
+        p{
+            color:#ddd;
+        }
     }
 }
 // responsive
