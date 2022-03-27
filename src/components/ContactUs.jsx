@@ -7,21 +7,21 @@ const ContactUs = () => {
     <div className='contact-us'>
       <div className="my-info">
         <div className="single-info">
-          <FaMapMarkerAlt />
+          <FaMapMarkerAlt className='icon-info'/>
           <div>
             <h4>Location</h4>
             <p>Mogadisho</p>
           </div>
         </div>
         <div className="single-info">
-          <AiFillPhone />
+          <AiFillPhone className='icon-info'/>
           <div>
             <h4>Phone</h4>
             <p>0616119634</p>
           </div>
         </div>
         <div className="single-info">
-          <MdEmail />
+          <MdEmail className='icon-info'/>
           <div>
             <h4>Email</h4>
             <p>Ahmedabukar34@gmail.com</p>
