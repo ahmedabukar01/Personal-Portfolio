@@ -345,12 +345,15 @@
     h1{
         text-align: center;
         color:#fff;
-        margin: 1rem 0 2rem;
+        margin: 1rem 0 2rem; 
     }
+    height: auto;
 }
 .contact-us{
+    text-align: center;
     .my-info{
         margin-top: 1rem;
+        margin-bottom: 2rem;
         display: flex;
         justify-content: space-evenly;
         text-align: center;
@@ -365,6 +368,48 @@
         p{
             color:#ddd;
         }
+    }
+    h2{
+        color:#fff;
+        margin-bottom: 1rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .input-field{
+            max-width: 500px;
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        textarea,input{
+            border:none;
+            border-radius: 5px;
+            width: 100%;
+            margin: 0.2rem 0;
+            font-size: 1rem;
+            padding:0.5rem 1.2rem;
+            outline: none;
+        }
+        textarea{
+           min-width: 100%;
+           min-height: 90px;
+        }
+        button{
+            border: none;
+            margin: 0.5rem 0;
+            font-size: 1rem;
+            background: $green1;
+            color:#fff;
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            border: 1px solid $green1;
+           :hover{
+               color:red;
+           }
+        }
+
     }
 }
 // responsive

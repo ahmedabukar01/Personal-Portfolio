@@ -28,6 +28,19 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+      <h2>Get in Touch</h2>
+      <form>
+        <div className="input-field">
+          <input type="text"  placeholder='Name'/>
+        </div>
+        <div className="input-field">
+          <input type="email"  placeholder='Email'/>
+        </div>
+        <div className="input-field">
+          <textarea  placeholder="Message"></textarea>
+        </div>
+        <button type='submit'>Send Message</button>
+      </form>
     </div>
   )
 }
