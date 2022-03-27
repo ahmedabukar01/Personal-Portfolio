@@ -329,11 +329,12 @@ body{
         p{
             font-size: 1.3rem;
         }
-        button{
+        a{
             border:none;
             padding: 0.5rem 2rem;
             border-radius: 5px;
             font-size: 1.2rem;
+            text-decoration: none;
             margin: 1rem 0;
             cursor: pointer;
             background:$green1;

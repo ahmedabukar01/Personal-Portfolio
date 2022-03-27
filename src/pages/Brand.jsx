@@ -8,7 +8,7 @@ const Brand = () => {
                 <h2>Modern HTML And CSS For Beginners</h2>
                 <span>Published Aug 2021</span>
                 <p>Complete Course From Basic to Advanced Level for Web Dev Newbies.</p>
-                <button>Visit</button>
+                <a href='https://tiigsi.com/courses/modern-html--css-for-beginners-building-real-world-projects-284'>Visit</a>
         </div>
     </div>
   )
