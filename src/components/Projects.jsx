@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
         <div className="btn-pro">
           <button>Code</button>
-          <button>Demo</button>
+          <button className='not-available'>Demo</button>
         </div>
       </div>
 
@@ -67,7 +67,7 @@ const Projects = () => {
         </div>
         <div className="btn-pro">
           <button>Code</button>
-          <button>Demo</button>
+          <button className='not-available'>Demo</button>
         </div>
       </div>
 

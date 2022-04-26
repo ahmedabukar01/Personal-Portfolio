@@ -3,7 +3,7 @@ import AboutMe from '../components/AboutMe';
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id="about">
       {/* <NasaParticle /> */}
         <AboutMe />
     </div>

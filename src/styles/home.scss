@@ -7,6 +7,13 @@
     padding:0;
     box-sizing: border-box;
 }
+
+// 
+.not-available{
+    text-decoration: line-through;
+    background:red;
+}
+
 body{
     scroll-behavior: smooth;
 }
