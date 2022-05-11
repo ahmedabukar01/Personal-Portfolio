@@ -22,8 +22,8 @@ const Projects = () => {
           </div>
         </div>
         <div className="btn-pro">
-          <button>Code</button>
-          <button className='not-available'>Demo</button>
+          <a href="https://github.com/ahmedabukar01/somBlog">Code</a>
+          {/* <button className='not-available'>Demo</button> */}
         </div>
       </div>
 
@@ -43,8 +43,8 @@ const Projects = () => {
           </div>
         </div>
         <div className="btn-pro">
-          <button>Code</button>
-          <button className='demo'>Demo</button>
+          <a href='https://github.com/ahmedabukar01/Realtime-Chat-App'>Code</a>
+          <a href='https://www.youtube.com/watch?v=CYZrwagCcC0' className='demo'>live YT</a>
         </div>
       </div>
 
@@ -66,8 +66,8 @@ const Projects = () => {
           </div>
         </div>
         <div className="btn-pro">
-          <button>Code</button>
-          <button className='not-available'>Demo</button>
+          <a href='https://github.com/ahmedabukar01/Learn-the-MERN-Stack'>Code</a>
+          {/* <a href='' className='not-available'>Demo</a> */}
         </div>
       </div>
 
@@ -85,8 +85,8 @@ const Projects = () => {
           </div>
         </div>
         <div className="btn-pro">
-          <button>Code</button>
-          <button>Demo</button>
+          <a href='https://github.com/ahmedabukar01/Normed'>Code</a>
+          <a href="https://normedtechnology.me/">Demo</a>
         </div>
       </div>
     </div>
