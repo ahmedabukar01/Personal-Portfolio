@@ -2,6 +2,7 @@ import { MdDownloadForOffline } from 'react-icons/md'
 import { MdWavingHand } from 'react-icons/md';
 import {FaFacebook, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import ahmed from '../images/ahmed.png';
+import pdf from '../data/ahmed.pdf';
 
 const AboutMe = () => {
   return (
@@ -25,7 +26,7 @@ const AboutMe = () => {
                 Fullstack Developer, Content Creator and Frealancer based in Mogadisho Somalia.<br />
                 Equibed with React, Node, Express, MongoDB, GraphQl, NextJs and much more Technologies.
             </p>
-            <a href='#'><MdDownloadForOffline className='icon' /> Download CV</a>
+            <a href={pdf} download><MdDownloadForOffline className='icon' /> Download CV</a>
         </div>
       </div>
     </div>
