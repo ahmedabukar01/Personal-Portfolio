@@ -13,9 +13,9 @@ const AboutMe = () => {
           <img src={ahmed} alt="ahmed" className='image'/>
           </div>
           <div className="social">
-            <a href="#"><FaFacebook /></a>
-            <a href="#"><FaLinkedin /></a>
-            <a href="#"><FaTwitter /></a>
+            <a href="https://www.facebook.com/axmed.lucky.7"><FaFacebook /></a>
+            <a href="https://www.linkedin.com/in/ahmed-abukar-b712581b4/"><FaLinkedin /></a>
+            <a href="https://twitter.com/Ahmed_Abukar_"><FaTwitter /></a>
           </div>
         </div>
 
