@@ -193,7 +193,7 @@ body{
             margin-bottom: 1rem;
             line-height: 1.4;
         }
-        button{
+        a{
             padding: 10px;
             font-size: 0.9rem;
             border:none;
@@ -204,6 +204,8 @@ body{
             display: flex;
             align-items: center;
             cursor: pointer;
+            text-decoration: none;
+            width:fit-content;
 
             .icon{
                 font-size: 1.2rem;

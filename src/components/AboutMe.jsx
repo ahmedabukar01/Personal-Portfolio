@@ -25,7 +25,7 @@ const AboutMe = () => {
                 Fullstack Developer, Content Creator and Frealancer based in Mogadisho Somalia.<br />
                 Equibed with React, Node, Express, MongoDB, GraphQl, NextJs and much more Technologies.
             </p>
-            <button><MdDownloadForOffline className='icon' /> Download CV</button>
+            <a href='#'><MdDownloadForOffline className='icon' /> Download CV</a>
         </div>
       </div>
     </div>
