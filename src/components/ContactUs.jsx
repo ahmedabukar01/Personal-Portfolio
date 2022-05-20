@@ -29,8 +29,14 @@ const ContactUs = () => {
         </div>
       </div>
       <h2>Get in Touch</h2>
-      <form>
+      <form
+      name="contact-from"
+      method="POST"
+      data-netlify="true"
+      >
+        <input type="hidden" name="form-name" value="contact-from" />
         <div className="input-field">
+          
           <input type="text"  placeholder='Name'/>
         </div>
         <div className="input-field">
