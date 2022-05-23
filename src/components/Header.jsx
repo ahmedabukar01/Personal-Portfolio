@@ -23,11 +23,11 @@ const Header = () => {
         </div>
         <ul className={`tabs ${show}`}>
           <li> <AiOutlineClose className='close' onClick={()=>setShow(false)}/> </li>
-            <li><a href="#home" >Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" onClick={()=>setShow(false)}>Home</a></li>
+            <li><a href="#about" onClick={()=>setShow(false)}>About</a></li>
+            <li><a href="#portfolio" onClick={()=>setShow(false)}>Portfolio</a></li>
+            <li><a href="#blog" onClick={()=>setShow(false)}>Blog</a></li>
+            <li><a href="#contact" onClick={()=>setShow(false)}>Contact</a></li>
         </ul>
         <FaBars className="fa-bars" onClick={()=>setShow(true)}/> 
     </div>
