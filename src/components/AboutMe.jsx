@@ -24,7 +24,7 @@ const AboutMe = () => {
             <h3>Hi I'm Ahmed <MdWavingHand /> </h3>
             <p>
                 Fullstack Developer, Content Creator and Frealancer based in Mogadisho Somalia.<br />
-                Equibed with React, Node, Express, MongoDB, GraphQl, NextJs and much more Technologies.
+                Equibed with React, Node, Express, MongoDB, NextJs and much more Technologies.
             </p>
             <a href={pdf} download><MdDownloadForOffline className='icon' /> Download CV</a>
         </div>
