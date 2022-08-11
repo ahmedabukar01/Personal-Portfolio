@@ -12,7 +12,7 @@ function App() {
       <Home />
       <About />
       <Portfolio />
-      <Brand />
+      {/* <Brand /> */}
       <Contact />
       <Footer />
     </div>
