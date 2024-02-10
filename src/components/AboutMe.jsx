@@ -23,7 +23,7 @@ const AboutMe = () => {
         <div className="info">
             <h3>Hi I'm Ahmed <MdWavingHand /> </h3>
             <p>
-                Fullstack Developer, Content Creator and Frealancer based in Mogadisho Somalia.<br />
+                Fullstack Developer, Security Analyst, and CybverSecurity Enthusiast.<br />
                 Equibed with React, Nextjs Node, Express, MongoDB, TypeScirpt, GraphQL and much more Technologies.
             </p>
             <a href={pdf} download><MdDownloadForOffline className='icon' /> Download CV</a>
