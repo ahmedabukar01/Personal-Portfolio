@@ -24,7 +24,7 @@ const ContactUs = () => {
           <MdEmail className='icon-info'/>
           <div>
             <h4>Email</h4>
-            <p>Ahmedabukar34@gmail.com</p>
+            <p>ahmednurdev@gmail.com</p>
           </div>
         </div>
       </div>
