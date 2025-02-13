@@ -27,7 +27,7 @@ const AboutMe = () => {
                 Equibed with React, Nextjs Node, Express, MongoDB, TypeScirpt, GraphQL and much more Technologies.
             </p>
             <a><MdDownloadForOffline className='icon' /> Download CV</a>
-            {/* <a href={pdf} download><MdDownloadForOffline className='icon' /> Download CV</a> */}
+            <a href={pdf} download><MdDownloadForOffline className='icon' /> Download CV</a>
         </div>
       </div>
     </div>
