@@ -26,8 +26,8 @@ const AboutMe = () => {
                 Fullstack Developer, Security Analyst, and CybverSecurity Enthusiast.<br />
                 Equibed with React, Nextjs Node, Express, MongoDB, TypeScirpt, GraphQL and much more Technologies.
             </p>
-            <a><MdDownloadForOffline className='icon' /> Downddload CV</a>
-            <a href={pdf} download><MdDownloadForOffline className='icon' /> Downloddad CV</a>
+            {/* <a><MdDownloadForOffline className='icon' /> Downddload CV</a> */}
+            <a href={pdf} download><MdDownloadForOffline className='icon' /> Download CV</a>
         </div>
       </div>
     </div>
